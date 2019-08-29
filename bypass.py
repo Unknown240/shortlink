@@ -88,7 +88,7 @@ print ('{2} Shortid.co')
 print ('{3} Linkduit.net')
 print ('{4} Bit.ly')
 print ('{5} Git.io + Check Url')
-print ('{5} Exit')
+print ('{6} Exit')
 try:
 	men = input('\n{*} Select number > ')
 except:
