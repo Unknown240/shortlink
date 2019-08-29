@@ -1,0 +1,28 @@
+#!/bin/bash
+clear
+
+
+echo "[ Short-Link ]" | lolcat
+echo "Authors : Unknown240"
+echo " "
+
+echo -e "{1} Shortlink git.io (Must be a GitHub.com URL.)"
+echo -e "{2} Check Shortlink?"
+echo " Choice => "
+
+read mrrm
+if [ $mrrm = 1 ] || [ $mrrm = 1 ]
+then
+clear
+echo -n "Hi, Insert Link if you want to short (Link Must From Github): ";
+read l;
+curl -i https://git.io -F "url=$l";
+fi
+ 
+if [ $mrrm = 2 ] || [ $mrrm = 2 ]
+then
+clear
+echo -n "Hi, Insert Link If You Want to Check Shortlink : ";
+read link;
+curl -i $link;
+fi

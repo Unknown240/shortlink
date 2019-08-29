@@ -1,0 +1,15 @@
+#!/bin/bash
+# POWERED BY ZSECC0DE-CREW.ID
+# LIHAT LINK ASLI LEWAT TOOLS BERBASIC CLI :)
+function request(){
+          ok=$(curl --silent "${1}" -H 'x-requested-with: XMLHttpRequest' -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36")
+          grab=$(echo $ok | grep -Eo "(http|https)://[a-zA-Z0-9./?]*?")
+          printf "%s" ${grab}
+}
+echo " "
+echo " The Result"
+request "$1    "
+
+sleep 5
+echo " "
+exit
