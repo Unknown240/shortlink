@@ -7,11 +7,12 @@ $ pip install -r req.txt<br/>
 $ python bypass.py
 
 # Features
-{1} Shtme.co
-{2} Shortid.co                                                             {3} Linkduit.net
-{4} Bit.ly
-{5} Short Git.io (Link from github) + Check Url                                                     {5} Exit
-                                                                           {*} Select number >
+{1} Shtme.co <br>
+{2} Shortid.co<br>
+{3} Linkduit.net <br>
+{4} Bit.ly<br>
+{5} Short Git.io (Link from github) + Check Url
 
-Mod By : Unknown240 ( Team Smile )
+
+Mod By : Unknown240 ( Team Smile ) <br>
 Channel Telegram @Unknown240
